@@ -71,3 +71,86 @@ button {
     padding: 10px 40px;
     border-radius: 8px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.img-info {
+    width: 150px;
+    color: gray;
+    
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 400px;
+}
+
+.quote-section div {
+    text-align: right;
+    font-weight: 900;
+    font-style: none;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    margin: 100px 0px;
+    
+}
+
+.sign-up .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    padding: 35px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    gap: 40px;
+    
+}
+
+.container h4 {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.container p {
+    margin: 0px;
+}
+.container button {
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 50px;
+    color: #F9FAF8;
+    justify-items: center;
+}
